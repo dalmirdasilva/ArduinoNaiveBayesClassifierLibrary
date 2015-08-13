@@ -1,1 +1,1 @@
-#ArduinoNaiveBayes
+#ArduinoNaiveBayesLibrary

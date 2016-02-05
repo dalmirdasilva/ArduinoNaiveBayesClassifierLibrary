@@ -13,8 +13,15 @@
 
 class Feature {
 
+    float value;
+
 public:
 
+    Feature(float value);
+
+    float getValue();
+
+    void getValue(float value);
 };
 
 #endif // __ARDUINO_NAIVE_BAYES_FEATURE_H__

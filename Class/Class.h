@@ -18,6 +18,10 @@ class Class {
 public:
 
     Class(unsigned char code);
+
+    unsigned char getCode();
+
+    void setCode(unsigned char code);
 };
 
 #endif // __ARDUINO_NAIVE_BAYES_CLASS_H__

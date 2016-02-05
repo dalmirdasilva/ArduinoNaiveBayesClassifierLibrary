@@ -17,6 +17,8 @@ class Learner {
 
 public:
 
+    virtual ~Learner();
+
     virtual void learn(Sample *sample) = 0;
 };
 
